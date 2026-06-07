@@ -135,3 +135,14 @@ Do not store giant summaries of every file. Store navigation knowledge:
 - Which files matter for common ticket types.
 - Which department skill should be loaded for the business process.
 - Which vendor/source files feed the process and how breaks are handled.
+
+## Preserved Project Context
+
+The original reusable prompt and design intent are preserved in `docs/PROJECT_CONTEXT.md`.
+
+Use that file when:
+
+- Rebuilding this assistant in another LLM.
+- Explaining the project to contributors.
+- Deciding whether a new prompt, playbook, template, or department skill belongs here.
+- Updating the project scope over time.
