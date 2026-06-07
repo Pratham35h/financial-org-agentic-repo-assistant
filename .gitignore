@@ -1,0 +1,15 @@
+# Local editor/system files
+.vscode/
+.idea/
+*.tmp
+*.log
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Generated ticket working memory can contain internal issue details.
+**/.claude/tickets/*/context.md
+
